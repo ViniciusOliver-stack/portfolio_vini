@@ -12,12 +12,12 @@ import {
 
 import { NavMain } from "./nav-main"
 import { NavSocials } from "./nav-socials"
-import { NavUser } from "./nav-user"
+// import { NavUser } from "./nav-user"
 
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
+  // SidebarFooter,
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar"
