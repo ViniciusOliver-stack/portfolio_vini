@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { cn } from "@/lib/utils"
 
 import { Badge } from "../ui/badge"
@@ -20,7 +21,7 @@ export function TechStackBadges({
           <h3 className="text-sm font-semibold">{category.title}</h3>
           <FadeIn>
             {category.items.map((item: any, index: number) => (
-              <Badge key={index} variant="subtle">
+              <Badge key={index}>
                 {item.name}{" "}
                 {/* Certifique-se de que `item.name` ou outra propriedade existe */}
               </Badge>
