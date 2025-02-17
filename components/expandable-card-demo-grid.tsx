@@ -230,7 +230,7 @@ export const CloseIcon = () => {
 const cards = [
   {
     description: "Lana Del Rey",
-    title: "Summertime Sadness",
+    title: "Rubnik | Agente de AI",
     src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
