@@ -15,11 +15,15 @@ export default function SectionHome() {
   return (
     <section className="flex flex-col gap-4 mb-8">
       <div>
-        <h1 className="text-3xl lg:text-4xl">Vinicius S. Oliveira</h1>
-        <RotateWords
-          text="Desenvolvedor"
-          words={["Fullstack", "RPA", "de Automações"]}
-        />
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+          Vinicius S. Oliveira
+        </h1>
+        <div className="text-xl sm:text-2xl text-muted-foreground">
+          <RotateWords
+            text="Desenvolvedor"
+            words={["Fullstack", "RPA", "de Automações"]}
+          />
+        </div>
       </div>
 
       <ul className="flex flex-col gap-1.5">

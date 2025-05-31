@@ -21,7 +21,7 @@ export function ProjectsGrid({
   const filteredProjects = projectsList
     .filter((project) => {
       if (showOnlyHighlighted && !project.highlight) return false
-      if (category && project.category !== category) return false
+      if (category && !project.categories.includes(category)) return false
       return true
     })
     .sort((a, b) => {

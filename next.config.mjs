@@ -11,6 +11,9 @@ const nextConfig = {
       {
         hostname: "i.imgur.com",
       },
+      {
+        hostname: "via.placeholder.com",
+      },
     ],
   },
 }
