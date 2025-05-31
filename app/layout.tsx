@@ -21,7 +21,7 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Vini Dev | Desenvolvedor Fullstack",
+  title: "Vini Oliveira | Desenvolvedor Fullstack",
   description:
     "Desenvolvedor Fullstack especializado em ReactJS, NextJS, TypeScript, JavaScript, NodeJS, PostgreSQL e Python. Transformando ideias em aplicações de alto desempenho.",
   keywords: [

@@ -8,6 +8,9 @@ const nextConfig = {
       {
         hostname: "assets.aceternity.com",
       },
+      {
+        hostname: "i.imgur.com",
+      },
     ],
   },
 }

@@ -25,7 +25,7 @@ import {
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
+    name: "Vinicius Oliveira",
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
@@ -51,17 +51,17 @@ const data = {
   projects: [
     {
       name: "Github",
-      url: "#",
+      url: "https://github.com/ViniciusOliver-stack",
       icon: GithubIcon,
     },
     {
       name: "Linkedin",
-      url: "#",
+      url: "https://www.linkedin.com/in/viniciussantos-oliveira/",
       icon: LinkedinIcon,
     },
     {
       name: "Email",
-      url: "#",
+      url: "mailto:vinicius.so.contato@gmail.com",
       icon: MailIcon,
     },
   ],

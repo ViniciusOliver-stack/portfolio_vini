@@ -7,7 +7,7 @@ interface WorkExperienceCardProps {
   data: ExperienceModel
 }
 
-export async function WorkExperienceCard({ data }: WorkExperienceCardProps) {
+export function WorkExperienceCard({ data }: WorkExperienceCardProps) {
   const {
     company,
     role,
@@ -40,8 +40,11 @@ export async function WorkExperienceCard({ data }: WorkExperienceCardProps) {
           <time className="mt-auto capitalize">
             {formatDate(startDate, !!endDate)} –{" "}
             {!endDate ? "Atualmente" : formatDate(endDate)} •{" "}
-            {duration.years > 0 && `${duration.years} ano(s)`}{" "}
-            {duration.months > 0 && `${duration.months} mês(es)`}
+            {duration.years > 0 &&
+              `${duration.years} ano${duration.years > 1 ? "s" : ""}`}
+            {duration.years > 0 && duration.months > 0 && " e "}
+            {duration.months > 0 &&
+              `${duration.months} ${duration.months > 1 ? "meses" : "mês"}`}
           </time>
         </dd>
       </dl>

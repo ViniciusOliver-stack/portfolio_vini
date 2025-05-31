@@ -20,5 +20,5 @@ export function formatDate(date: Date, showYear: boolean = true): string {
       ...(showYear && { year: "numeric" }),
     };
     return new Intl.DateTimeFormat("pt-BR", options).format(date);
-  }
+}
   
