@@ -100,7 +100,12 @@ export const uses = [
             name: "Python",
             icon: "/images/techs/python.svg",
             link: "https://pyton.org",
-          },          
+          },
+          {
+            name: "N8N",
+            icon: "/images/techs/n8n.svg",
+            link: "https://n8n.io/",
+          },      
           {
             name: "Auto Hot Key",
             icon: "/images/techs/autohotkey.svg",
@@ -290,6 +295,11 @@ export const uses = [
             name: "Easy Panel",
             icon: "/images/techs/easypanel.png",
             link: "https://easypanel.io",
+        },
+        {
+            name: "Railway App",
+            icon: "/images/techs/railway.svg",
+            link: "https://railway.com/",
         },
       ],
     },
