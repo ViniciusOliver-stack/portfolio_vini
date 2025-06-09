@@ -86,6 +86,77 @@ export const projectsList: ProjectModel[] = [
     ),
   },
   {
+    id: "transportino",
+    name: "Transportino",
+    projectUrl: "https://transportino.com",
+    projectLink: "https://transportino.com",
+    imagePreviewUrl: "/images/projects/transportino-thumbnail.png",
+    categories: ["backend"],
+    shortDescription:
+      "Transportino é um app de entregas ponto a ponto que conecta usuários a motoristas, facilitando envios rápidos com rota otimizada, rastreio em tempo real e uma experiência simples e eficiente.",
+    highlight: true,
+    detailedContent: () => (
+      <p>
+        O <span className="font-medium">Transportino</span> é um aplicativo de
+        entregas sob demanda, desenvolvido para atender desde pessoas físicas
+        até empresas de todos os portes que precisam realizar envios de forma
+        rápida e descomplicada. A plataforma conecta remetentes a motoristas
+        disponíveis, tornando o processo de entrega direto e eficiente.
+        <span className="font-medium">
+          Seja para entregar documentos, mercadorias, pacotes pessoais ou
+          produtos de uma empresa
+        </span>
+        , o Transportino oferece uma solução acessível, moderna e intuitiva.
+        <p className="py-4">
+          <p className="font-medium">🚀 Como funciona:</p>
+          <ol className="list-disc ml-5">
+            <li>
+              • O usuário cadastra o pedido com endereço de origem, destino e
+              observações
+            </li>
+            <li>• Motoristas visualizam e aceitam os pedidos em tempo real</li>
+            <li>
+              • O sistema exibe rotas otimizadas e detalhes completos da entrega
+            </li>
+            <li>
+              • Comunicação prática e acompanhamento simples durante todo o
+              processo
+            </li>
+          </ol>
+        </p>
+        <p className="py-4">
+          <p className="font-medium">💡 Principais Diferenciais:</p>
+          <ol className="list-disc ml-5">
+            <li>
+              • Uso real por diversos tipos de usuários — de pessoas comuns a
+              grandes empresas
+            </li>
+            <li>
+              • Interface responsiva e fácil de usar, tanto para remetentes
+              quanto para motoristas
+            </li>
+            <li>
+              • Cadastro rápido de pedidos com dados completos (dimensões,
+              observações, etc.)
+            </li>
+            <li>
+              • Acompanhamento eficiente da entrega e escolha inteligente de
+              veículos
+            </li>
+            <li>
+              • Otimização do processo logístico com redução de erros e
+              burocracias
+            </li>
+          </ol>
+        </p>
+        O <span className="font-medium">Transportino</span> é mais do que um app
+        de entregas — é uma ferramenta que moderniza e facilita a logística
+        urbana de forma acessível e eficiente, já em funcionamento e trazendo
+        resultados reais para seus usuários.
+      </p>
+    ),
+  },
+  {
     id: "big-lanches",
     name: "Big Lanches",
     projectUrl: "https://big-lanches-msio.vercel.app/",
@@ -125,34 +196,6 @@ export const projectsList: ProjectModel[] = [
             Lanches, atendendo pedidos reais e otimizando o atendimento ao
             cliente.
           </p>
-        </div>
-      </p>
-    ),
-  },
-  {
-    id: "transportino",
-    name: "Transportino",
-    projectUrl: "https://transportino.com",
-    projectLink: "https://transportino.com",
-    imagePreviewUrl: "/images/projects/easy-aluga.png",
-    categories: ["frontend"],
-    shortDescription:
-      "Plataforma de gestão de transportes e logística com interface moderna e funcionalidades avançadas.",
-    highlight: true,
-    detailedContent: () => (
-      <p>
-        O <span className="font-medium">Transportino</span> é uma plataforma
-        completa para gestão de transportes e logística, desenvolvida com foco
-        na eficiência e usabilidade.
-        <div className="py-4">
-          <p className="font-medium">🚚 Principais funcionalidades:</p>
-          <ol>
-            <li>• Gestão completa de frota</li>
-            <li>• Rastreamento em tempo real</li>
-            <li>• Otimização de rotas</li>
-            <li>• Relatórios detalhados</li>
-            <li>• Interface responsiva e intuitiva</li>
-          </ol>
         </div>
       </p>
     ),
